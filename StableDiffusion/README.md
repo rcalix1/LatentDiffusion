@@ -20,7 +20,8 @@
 * and real noise of size (batch, channel, 28, 28 )
 * the values in the pred noise and real noise grids are in range from -1 to +1
 * Therefore the loss can be (pred noise grid  + real noise grid ) **2
-  
+* this jupyter prints values of loss parameters to understand the loss equation:
+* https://github.com/rcalix1/LatentDiffusion/blob/main/StableDiffusion/LossSmallStableDiffusion.ipynb
 * the approach involves training a neural network to ‘denoise’ samples using the denoising objective
 
 
