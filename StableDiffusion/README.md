@@ -25,7 +25,7 @@ $$
 * Expressing the same idea in a way closer to the actual implementation:
 
 $$
-    J = s( x_{ 0 }  + \sigma {t} \epsilon, t )  
+    J = s( x_{ 0 }  + \sigma(t) \epsilon, t )  
 $$
   
 * link
