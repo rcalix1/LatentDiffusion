@@ -32,4 +32,5 @@ $$
 *  and for every x0​ in our original distribution (cars, cats, etc.)
 * s(⋅,⋅) represents the score function
 * σ(t) is a function of time
+* Learning the score function is like transforming random noise into something meaningful
 * 
