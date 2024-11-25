@@ -13,7 +13,7 @@
 * These layers are joined together along the channel dimensions so the number of channels increases from k to 2k
 * The number of spatial dimensions should remain the same
 
-## Score function
+## loss function
 
 * the loss is essentially the difference between
 * predicted noise of size (batch, channel, 28, 28 )
