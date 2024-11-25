@@ -15,19 +15,22 @@
 
 ## Score function
 
-* Learning Score Function
+* the loss is essentially the difference between
+* predicted noise of size (batch, channel, 28, 28 )
+* and real noise of size (batch, channel, 28, 28 )
+* the values in the pred noise and real noise grids are in range from -1 to +1
+* Therefore the loss can be (pred noise grid  + real noise grid ) **2
+  
 * the approach involves training a neural network to ‘denoise’ samples using the denoising objective
 
-$$
-    J = s( x_{ noised }, t  )  \sigma^2(t) + ( x_{noised} - x_{0})
-$$
 
 * Expressing the same idea in a way closer to the actual implementation:
 
 $$
   J =   L2(  s( x_{ 0 }  + \sigma(t) \epsilon, t )  \sigma(t) + \epsilon )^2
 $$
-  
+
+* epsilon here is the noise grid
 * It’s important to understand the concept that our aim is to predict the amount of noise added to each part of our sample effectively at every time t in the diffusion process
 *  and for every x0​ in our original distribution (cars, cats, etc.)
 * s(⋅,⋅) represents the score function
