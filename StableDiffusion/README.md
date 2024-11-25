@@ -33,15 +33,15 @@ $$
 * epsilon here is the noise grid
 * It’s important to understand the concept that our aim is to predict the amount of noise added to each part of our sample effectively at every time t in the diffusion process
 *  and for every x0​ in our original distribution (cars, cats, etc.)
-* s(⋅,⋅) represents the score function
-* σ(t) is a function of time
-* Learning the score function is like transforming random noise into something meaningful
+* s(⋅,⋅) represents the unet which predicts the noise grid
+* σ(t) is a function of time (noise a t time t)
+* Learning the s function is like transforming random noise into something meaningful
 * This loss function figures out how wrong our model is while training.
 * It involves picking a random time, getting the noise level, adding this noise to our data,
 * and then checking how off our model’s prediction is from reality.
 * The aim is to reduce this error during training
 * Stable Diffusion creates an image by starting with a totally random one.
-* The noise predictor then guesses how noisy the image is,
+* The noise predictor then guesses the noise  image 
 * and this guessed noise is removed from the image.
 * This whole cycle repeats several times, resulting in a clean image at the end
-* 
+  
