@@ -30,4 +30,6 @@ $$
   
 * It’s important to understand the concept that our aim is to predict the amount of noise added to each part of our sample effectively at every time t in the diffusion process
 *  and for every x0​ in our original distribution (cars, cats, etc.)
+* s(⋅,⋅) represents the score function
+* σ(t) is a function of time
 * 
