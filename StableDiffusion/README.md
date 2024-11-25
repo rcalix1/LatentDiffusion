@@ -12,4 +12,12 @@
 * In the U-net we concatenate or connect upsampling layers to the equivalently sized layers in the downsampling part of the network
 * These layers are joined together along the channel dimensions so the number of channels increases from k to 2k
 * The number of spatial dimensions should remain the same
-* 
+
+## Score function
+
+* Learning Score Function
+* the approach involves training a neural network to ‘denoise’ samples using the denoising objective
+
+$$
+    J = S( x_( noised )  )
+$$
