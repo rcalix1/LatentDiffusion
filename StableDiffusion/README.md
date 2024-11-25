@@ -28,5 +28,6 @@ $$
     J = s( x_{ 0 }  + \sigma(t) \epsilon, t )  \sigma(t) + \epsilon
 $$
   
-* link
+* It’s important to understand the concept that our aim is to predict the amount of noise added to each part of our sample effectively at every time t in the diffusion process
+*  and for every x0​ in our original distribution (cars, cats, etc.)
 * 
