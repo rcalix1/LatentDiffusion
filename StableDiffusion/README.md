@@ -22,5 +22,11 @@ $$
     J = s( x_{ noised }, t  )  \sigma^2(t) + ( x_{noised} - x_{0})
 $$
 
+* Expressing the same idea in a way closer to the actual implementation:
+
+$$
+    J = s( x_{ 0 }, t  + \sigma {t} \epsilon, t )  
+$$
+  
 * link
 * 
