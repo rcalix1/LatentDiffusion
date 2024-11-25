@@ -21,3 +21,6 @@
 $$
     J = s( x_{ noised }, t  )  \sigma^2(t) + ( x_{noised} - x_{0})
 $$
+
+* link
+* 
