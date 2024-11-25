@@ -19,5 +19,5 @@
 * the approach involves training a neural network to ‘denoise’ samples using the denoising objective
 
 $$
-    J = s( x_{ noised }, t  )  \sigma
+    J = s( x_{ noised }, t  )  \sigma^2(t)
 $$
