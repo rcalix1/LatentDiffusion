@@ -45,4 +45,12 @@ $$
 * The noise predictor then guesses the noise  image 
 * and this guessed noise is removed from the image.
 * This whole cycle repeats several times, resulting in a clean image at the end
-  
+
+## Image
+
+
+![stableDiffusion.jpg](stableDiffusion.jpg)
+
+
+
+
