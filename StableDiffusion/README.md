@@ -25,7 +25,7 @@ $$
 * Expressing the same idea in a way closer to the actual implementation:
 
 $$
-  L2(  J = s( x_{ 0 }  + \sigma(t) \epsilon, t )  \sigma(t) + \epsilon )^2
+  J =   L2(  s( x_{ 0 }  + \sigma(t) \epsilon, t )  \sigma(t) + \epsilon )^2
 $$
   
 * It’s important to understand the concept that our aim is to predict the amount of noise added to each part of our sample effectively at every time t in the diffusion process
