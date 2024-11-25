@@ -33,4 +33,12 @@ $$
 * s(⋅,⋅) represents the score function
 * σ(t) is a function of time
 * Learning the score function is like transforming random noise into something meaningful
+* This loss function figures out how wrong our model is while training.
+* It involves picking a random time, getting the noise level, adding this noise to our data,
+* and then checking how off our model’s prediction is from reality.
+* The aim is to reduce this error during training
+* Stable Diffusion creates an image by starting with a totally random one.
+* The noise predictor then guesses how noisy the image is,
+* and this guessed noise is removed from the image.
+* This whole cycle repeats several times, resulting in a clean image at the end
 * 
