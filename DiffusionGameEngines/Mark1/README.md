@@ -3,3 +3,6 @@
 * MNIST
 * Stable diffusion
 * 
+
+
+![GameNGen demo](anim.gif)
