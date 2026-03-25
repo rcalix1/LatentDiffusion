@@ -33,15 +33,15 @@ $$
 
 
 $$
-  J =   L2(  pred-noise-grid +  real-noise-grid )^2
+  J =   L2(  PredNoiseGrid +  RealNoiseGrid )^2
 $$
 
 $$
-    pred_noise_grid = s( x_{ 0 }  + \sigma(t) \epsilon, t )  \sigma(t) 
+    PredNoiseGrid = s( x_{ 0 }  + \sigma(t) \epsilon, t )  \sigma(t) 
 $$ 
 
 $$
-   real_noise_grid = \epsilon 
+   RealNoiseGrid = \epsilon 
 $$
 
 * epsilon here is the noise grid
