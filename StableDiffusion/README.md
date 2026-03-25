@@ -28,12 +28,12 @@
 * Expressing the same idea in a way closer to the actual implementation:
 
 $$
-  J =   L2(  s( x_{ 0 }  + \sigma(t) \epsilon, t )  \sigma(t) + real_noise_grid )^2
+  J =   L2(  s( x_{ 0 }  + \sigma(t) \epsilon, t )  \sigma(t) +  \epsilon )^2
 $$
 
 
 $$
-  J =   L2(  pred_noise_grid + \epsilon )^2
+  J =   L2(  pred-noise-grid +  real-noise-grid )^2
 $$
 
 $$
