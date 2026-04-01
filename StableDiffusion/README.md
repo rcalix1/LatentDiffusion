@@ -2,6 +2,10 @@
 
 * Stable Diffusion for MNIST
 
+## Current
+
+* I am reviewing this one: Cond2StreamlinedStableDiffusionMNIST.ipynb
+
 ## U-Net Models
 
 * Has a U shape from dowsampling to up-sampling the images
