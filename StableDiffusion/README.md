@@ -4,7 +4,7 @@
 
 ## Current
 
-* I am reviewing this one: Cond2StreamlinedStableDiffusionMNIST.ipynb
+* DEMO in class (2026): Cond2StreamlinedStableDiffusionMNIST.ipynb
 
 ## U-Net Models
 
